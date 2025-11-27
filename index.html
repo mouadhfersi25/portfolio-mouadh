@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouadh FERSI - Portfolio</title>
+    <meta name="description" content="Portfolio de Mouadh FERSI, Étudiant Ingénieur en Technologies du Web et de l'Internet">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#accueil" class="logo">
+                    Mouadh <span class="highlight">FERSI</span>
+                </a>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li><a href="#experience" class="nav-link">Expérience</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil / Hero -->
+    <section id="accueil" class="hero">
+        <div class="hero-bg">
+            <div class="animated-bg"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="welcome-badge">
+                        <i class="fas fa-wave-square"></i>
+                        <span>Bienvenue sur mon portfolio</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Mouadh <br>
+                        <span class="highlight">FERSI</span>
+                    </h1>
+                    
+                    <h2 class="hero-subtitle">
+                        Étudiant Ingénieur <br>
+                        <span class="typed-text">Full-Stack Developer</span>
+                    </h2>
+                    
+                    <p class="hero-description">
+                        Passionné par le développement web et les architectures logicielles. 
+                        Spécialisé en <span class="highlight-text">React</span>, 
+                        <span class="highlight-text">Django</span> et 
+                        <span class="highlight-text">MongoDB</span>.
+                    </p>
+                    
+                    <div class="hero-badges">
+                        <span class="badge badge-primary">
+                            <i class="fab fa-react"></i> React
+                        </span>
+                        <span class="badge badge-secondary">
+                            <i class="fab fa-python"></i> Django
+                        </span>
+                        <span class="badge badge-accent">
+                            <i class="fab fa-node-js"></i> Node.js
+                        </span>
+                        <span class="badge badge-info">
+                            <i class="fab fa-docker"></i> DevOps
+                        </span>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary">
+                            <i class="fas fa-folder-open"></i>
+                            Explorer mes projets
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i>
+                            Me contacter
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-wrapper">
+                            <!-- Photo de profil -->
+                            <img src="assets/e4bb9129-8af7-4dd3-bf27-8f69db854b39.jpeg" alt="Mouadh FERSI" style="object-position: center 55%; border-radius: 15px;">
+                        </div>
+                        <p class="availability-text">
+                            <i class="fas fa-check-circle"></i>
+                            Disponible pour stage
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll pour découvrir</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section apropos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    À propos de <span class="highlight">moi</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="apropos-content">
+                <div class="apropos-text">
+                    <h3 class="apropos-subtitle">Mon Parcours</h3>
+                    <p>
+                        Actuellement en <strong>ingénierie informatique à ESPRIT</strong>, je me spécialise 
+                        dans le développement d'applications web modernes et performantes.
+                    </p>
+                    <p>
+                        Mon expertise couvre l'écosystème <strong>JavaScript</strong> avec <strong>React</strong> 
+                        et <strong>Node.js</strong>, ainsi que <strong>Python</strong> avec <strong>Django</strong> 
+                        et <strong>MongoDB</strong>, permettant de créer des solutions full-stack complètes.
+                    </p>
+                    
+                    <div class="apropos-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>ESPRIT</h4>
+                                <p>Formation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>4+</h4>
+                                <p>Stages réalisés</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>10+</h4>
+                                <p>Projets complétés</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>3</h4>
+                                <p>Certifications</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="apropos-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tunis, Tunisie</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(+216) 95679811</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mouadh.fersi@esprit.tn</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="apropos-image">
+                    <div class="apropos-card">
+                        <i class="fas fa-code card-icon"></i>
+                        <h4>Passion & Innovation</h4>
+                        <p>
+                            Curieux et motivé, je souhaite contribuer à un projet de fin d'études 
+                            ambitieux en développement web, en mettant en œuvre mes compétences 
+                            techniques et mon esprit collaboratif.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section competences">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Compétences <span class="highlight">Techniques</span>
+                </h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Des compétences techniques variées pour créer des solutions complètes
+                </p>
+            </div>
+            
+            <div class="competences-grid">
+                <!-- Langages -->
+                <div class="competence-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Langages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hashtag"></i>
+                            <span>C / C# / C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frameworks Web -->
+                <div class="competence-category">
+                    <div class="category-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks Web</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React JS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Express JS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-symfony"></i>
+                            <span>Symfony</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-d"></i>
+                            <span>Django</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bases de données -->
+                <div class="competence-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Bases de données</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>NoSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- DevOps -->
+                <div class="competence-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>DevOps</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-jenkins"></i>
+                            <span>Jenkins</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-dharmachakra"></i>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-m"></i>
+                            <span>Maven</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Méthodes & Outils -->
+                <div class="competence-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Méthodes & Outils</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git / GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Agile / Scrum</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sitemap"></i>
+                            <span>UML</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-vial"></i>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-plug"></i>
+                            <span>API REST</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-jira"></i>
+                            <span>Jira</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Langues -->
+                <div class="competence-category">
+                    <div class="category-header">
+                        <i class="fas fa-language"></i>
+                        <h3>Compétences Linguistiques</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-flag"></i>
+                            <span>Arabe (Langue maternelle)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-flag"></i>
+                            <span>Français (Autres langues)</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-flag"></i>
+                            <span>Anglais (Autres langues)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Expérience <span class="highlight">Professionnelle</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Stage 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar"></i>
+                            Juillet 2025 - Août 2025
+                        </div>
+                        <h3>Stagiaire Full-Stack</h3>
+                        <h4>VISSHOP AI SOUSSE TUNISIE</h4>
+                        <p class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Sousse, Tunisie
+                        </p>
+                        <ul class="experience-list">
+                            <li>Développement full-stack d'un site web d'entreprise avec React JS, Django et MongoDB</li>
+                            <li>Collaboration en équipe avec Git et méthodes agiles</li>
+                            <li>Livraison d'un site opérationnel et responsive</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stage 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar"></i>
+                            Juillet 2024 - Août 2024
+                        </div>
+                        <h3>Stagiaire Full-Stack</h3>
+                        <h4>DIGITAL VIRGO TUNIS</h4>
+                        <p class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Tunis, Tunisie
+                        </p>
+                        <ul class="experience-list">
+                            <li>Développement d'une application web de gestion de stock et de caisse</li>
+                            <li>Utilisation de React JS (front-end), Express JS (back-end), MongoDB</li>
+                            <li>Analyse des besoins, modélisation UML, développement front-end, création d'API REST</li>
+                            <li>Tests et gestion de projet en Scrum</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Express JS</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">UML</span>
+                            <span class="tech-tag">Scrum</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stage 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar"></i>
+                            Février 2023 - Mai 2023
+                        </div>
+                        <h3>Stagiaire Full-Stack</h3>
+                        <h4>WEBUP LE KEF</h4>
+                        <p class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Le Kef, Tunisie
+                        </p>
+                        <ul class="experience-list">
+                            <li>Création d'un site e-commerce « FRIPPY » avec React JS, Express JS et MongoDB</li>
+                            <li>Analyse des besoins, modélisation UML, tests et suivi agile du projet</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React JS</span>
+                            <span class="tech-tag">Express JS</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">UML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stage 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar"></i>
+                            Juillet 2022 - Juillet 2022
+                        </div>
+                        <h3>Stagiaire Développeur</h3>
+                        <h4>DIGITAL INNOVATION TUNIS</h4>
+                        <p class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Tunis, Tunisie
+                        </p>
+                        <ul class="experience-list">
+                            <li>Développement d'une application de gestion universitaire avec Odoo</li>
+                            <li>Gestion de scolarité, enseignants, RH, facturation</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Odoo</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section projets">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Projets <span class="highlight">Académiques & Techniques</span>
+                </h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Découvrez mes réalisations techniques et académiques
+                </p>
+            </div>
+            
+            <div class="projets-grid">
+                <!-- Projet 1: SkillBridge -->
+                <div class="projet-card">
+                    <div class="projet-header">
+                        <div class="projet-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="projet-badges">
+                            <span class="badge-tag">MERN</span>
+                            <span class="badge-tag">IA</span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="projet-title">SkillBridge</h3>
+                    <p class="projet-subtitle">Plateforme d'échange de compétences avec recommandation IA</p>
+                    
+                    <p class="projet-description">
+                        Plateforme web d'échange de compétences avec mentorat intelligent et 
+                        apprentissage collaboratif, développée avec React JS, Express JS et MongoDB.
+                    </p>
+                    
+                    <div class="projet-features">
+                        <h4>Fonctionnalités principales:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Marketplace de compétences</li>
+                            <li><i class="fas fa-check"></i> Collaboration en temps réel</li>
+                            <li><i class="fas fa-check"></i> Paiement intégré</li>
+                            <li><i class="fas fa-check"></i> Chatbot mentor</li>
+                            <li><i class="fas fa-check"></i> Suivi de progression</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="projet-tech">
+                        <span class="tech-badge">React JS</span>
+                        <span class="tech-badge">Express JS</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">IA</span>
+                    </div>
+                    
+                    <div class="projet-links">
+                        <a href="https://github.com/mouadhfersi25" class="projet-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Projet 2: Davinci's Data -->
+                <div class="projet-card">
+                    <div class="projet-header">
+                        <div class="projet-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="projet-badges">
+                            <span class="badge-tag">JavaFX</span>
+                            <span class="badge-tag">Art</span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="projet-title">Davinci's Data</h3>
+                    <p class="projet-subtitle">Application web, mobile et desktop</p>
+                    
+                    <p class="projet-description">
+                        Plateforme artistique pour la créativité et la communauté autour de l'art 
+                        numérique, développée avec JavaFX, SceneBuilder, Symfony et FlutterFlow.
+                    </p>
+                    
+                    <div class="projet-features">
+                        <h4>Fonctionnalités principales:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Gestion des utilisateurs</li>
+                            <li><i class="fas fa-check"></i> Ventes et événements</li>
+                            <li><i class="fas fa-check"></i> Forums collaboratifs</li>
+                            <li><i class="fas fa-check"></i> Services personnalisés</li>
+                            <li><i class="fas fa-check"></i> Suivi de travaux et statistiques</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="projet-tech">
+                        <span class="tech-badge">JavaFX</span>
+                        <span class="tech-badge">Symfony</span>
+                        <span class="tech-badge">FlutterFlow</span>
+                        <span class="tech-badge">SceneBuilder</span>
+                    </div>
+                    
+                    <div class="projet-links">
+                        <a href="https://github.com/mouadhfersi25" class="projet-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Projet 3: GenEx -->
+                <div class="projet-card">
+                    <div class="projet-header">
+                        <div class="projet-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="projet-badges">
+                            <span class="badge-tag">IA</span>
+                            <span class="badge-tag">Django</span>
+                        </div>
+                    </div>
+                    
+                    <h3 class="projet-title">GenEx</h3>
+                    <p class="projet-subtitle">Plateforme éducative intelligente basée sur l'IA</p>
+                    
+                    <p class="projet-description">
+                        Plateforme d'apprentissage personnalisée combinant intelligence artificielle 
+                        et outils pédagogiques avancés, développée avec Django et intégrant plusieurs 
+                        modules interactifs.
+                    </p>
+                    
+                    <div class="projet-features">
+                        <h4>Fonctionnalités principales:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Génération automatique de cours</li>
+                            <li><i class="fas fa-check"></i> Création d'exercices IA</li>
+                            <li><i class="fas fa-check"></i> Quizzes quotidiens</li>
+                            <li><i class="fas fa-check"></i> Chatbot assistant</li>
+                            <li><i class="fas fa-check"></i> Analyse vocale niveau linguistique (A1-C2)</li>
+                            <li><i class="fas fa-check"></i> Suivi personnalisé de progression</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="projet-tech">
+                        <span class="tech-badge">Django</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">IA</span>
+                        <span class="tech-badge">NLP</span>
+                    </div>
+                    
+                    <div class="projet-links">
+                        <a href="https://github.com/mouadhfersi25" class="projet-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Certifications -->
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Certifications <span class="highlight">Professionnelles</span>
+                </h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Des certifications reconnues qui valident mon expertise technique
+                </p>
+            </div>
+            
+            <div class="certifications-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>3</h3>
+                    <p>Certifications</p>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>3</h3>
+                    <p>Plateformes</p>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Expert</h3>
+                    <p>Niveau</p>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>100%</h3>
+                    <p>En progression</p>
+                </div>
+            </div>
+            
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+                <div class="certification-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-check-circle"></i>
+                        Vérifié
+                    </div>
+                    
+                    <div class="cert-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    
+                    <h3 class="cert-title">CCNA: Switching, Routing, and Wireless Essentials</h3>
+                    <p class="cert-issuer">Cisco</p>
+                    
+                    <div class="cert-date">
+                        <i class="fas fa-calendar"></i>
+                        Mai 2025
+                    </div>
+                    
+                    <p class="cert-description">
+                        Certification en architecture de réseaux, configuration de switchs et routeurs, 
+                        et technologies sans fil.
+                    </p>
+                </div>
+                
+                <!-- Certification 2 -->
+                <div class="certification-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-check-circle"></i>
+                        Vérifié
+                    </div>
+                    
+                    <div class="cert-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    
+                    <h3 class="cert-title">Hashgraph Developer Course</h3>
+                    <p class="cert-issuer">Blockchain (Hashgraph)</p>
+                    
+                    <div class="cert-date">
+                        <i class="fas fa-calendar"></i>
+                        Novembre 2025
+                    </div>
+                    
+                    <p class="cert-description">
+                        Formation complète sur le développement blockchain avec la technologie Hashgraph 
+                        et les applications décentralisées.
+                    </p>
+                </div>
+                
+                <!-- Certification 3 -->
+                <div class="certification-card">
+                    <div class="cert-badge">
+                        <i class="fas fa-check-circle"></i>
+                        Vérifié
+                    </div>
+                    
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    
+                    <h3 class="cert-title">AWS Academy Cloud Foundations</h3>
+                    <p class="cert-issuer">Amazon Web Services</p>
+                    
+                    <div class="cert-date">
+                        <i class="fas fa-calendar"></i>
+                        Novembre 2025
+                    </div>
+                    
+                    <p class="cert-description">
+                        Formation sur les fondamentaux du cloud AWS, incluant les services principaux, 
+                        la sécurité et l'architecture cloud.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Contact & <span class="highlight">Collaboration</span>
+                </h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Prêt à donner vie à vos projets digitaux ? Discutons de vos idées et créons ensemble 
+                    des solutions innovantes qui marquent l'innovation.
+                </p>
+            </div>
+            
+            <div class="contact-info-cards">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>< 24h</h3>
+                    <p>Temps de réponse</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Immédiate</h3>
+                    <p>Disponibilité</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Tous canaux</h3>
+                    <p>Type de contact</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Stage PFE</h3>
+                    <p>Recherche active</p>
+                </div>
+            </div>
+            
+            <div class="contact-methods">
+                <a href="mailto:mouadh.fersi@esprit.tn" class="contact-method">
+                    <div class="method-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="method-content">
+                        <h4>EMAIL</h4>
+                        <p>mouadh.fersi@esprit.tn</p>
+                    </div>
+                    <i class="fas fa-arrow-right method-arrow"></i>
+                </a>
+                
+                <a href="https://linkedin.com/in/mouadh-fersi" target="_blank" class="contact-method">
+                    <div class="method-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="method-content">
+                        <h4>LINKEDIN</h4>
+                        <p>mouadh-fersi</p>
+                    </div>
+                    <i class="fas fa-arrow-right method-arrow"></i>
+                </a>
+                
+                <a href="https://github.com/mouadhfersi25" target="_blank" class="contact-method">
+                    <div class="method-icon github">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="method-content">
+                        <h4>GITHUB</h4>
+                        <p>@mouadhfersi25</p>
+                    </div>
+                    <i class="fas fa-arrow-right method-arrow"></i>
+                </a>
+                
+                <a href="tel:+21695679811" class="contact-method">
+                    <div class="method-icon phone">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="method-content">
+                        <h4>TÉLÉPHONE</h4>
+                        <p>(+216) 95679811</p>
+                    </div>
+                    <i class="fas fa-arrow-right method-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Mouadh <span class="highlight">FERSI</span></h3>
+                    <p>Étudiant Ingénieur Full-Stack Developer</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Me suivre</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/mouadhfersi25" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/mouadh-fersi" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:mouadh.fersi@esprit.tn">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mouadh FERSI. Tous droits réservés.</p>
+                <p>Développé avec <i class="fas fa-heart"></i> pour trouver un stage PFE</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bouton Scroll to Top -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
